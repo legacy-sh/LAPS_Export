@@ -1,0 +1,1 @@
+Get-ADComputer inf-* -Properties ms-MCs-AdmPwd | select name, ms-MCs-AdmPwd | Start-Transcript -path C:\Users\User\Desktop\Export.txt -append | Stop-Transcript
